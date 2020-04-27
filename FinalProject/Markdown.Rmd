@@ -1,0 +1,15 @@
+---
+title: "Beef Calculator"
+author: "Rebekah Brouillette"
+date: "4/27/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Beef Calculator
+
+This package is a simple way to calculate the amount of beef that can be extracted from a cow. This concept can also be applied to other slaughter animals like pigs. This package includes functions on how to calculate the percentage of a cow that can be used as meat as well as the price that cow is worth. This is done by comparing the weight of the cow while it was alive and dividing by the weight of the cow carcass. The price is calculated by multuplying the carcass weight and the price per pound of beef. I would like to credit my good friend Molly Quinn for giving me the idea for this project.
+
