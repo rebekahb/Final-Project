@@ -1,15 +1,13 @@
 Package: FinalProject
-Title: What the Package Does (One Line, Title Case)
+Title: Beef Calculator
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Rebekah",
+           family = "Brouillette",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "rebekahb@mail.usf.edu")
+Description: Dressing Percentage Formula - This package will calculate the amount of beef you can get based on the size and weight of the cow. The function will take inputs of its weight while alive and the carcass weight and return the optimal amount of meat that can be extracted from the cow. This is expressed as a percentage, and reflects the percentage of cow you use for meat.Credit to Molly Quinn for giving me the idea for this function.
+License: CC0 https://creativecommons.org/share-your-work/public-domain/cc0/
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
